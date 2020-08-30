@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap"); 
+.first-comp{
+    display:flex;
+     border: 1px solid black;
+        height: 100%;
+        width : 100%;
+        margin:0 auto;
+        font-family: 'Amiri', serif;
+        
+}
+.first-img{
+    border:1px solid blue;
+    width:50%;
+    width:75%;
+}
+h2{
+    color:black;
+    font-size:1em;
+    text-align: center;
+}
