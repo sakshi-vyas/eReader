@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap"); 
+.ctgrs{
+    width:100%;
+    background-color:whitesmoke;
+    margin-bottom:0px;
+}
+.first{
+    margin-top:5em;
+    width:100%;
+    background-color:whitesmoke ;
+    display:flex;
+    padding:2em;
+}
+.second{
+    width:40%;
+    padding-left:2em;
+    font-family: 'Amiri', serif;
+    font-weight:bold;
+    font-size:2.65em;
+    padding-top:0.5em;
+    color:darkblue;
+       
+}
+.third{
+    text-align: center;
+    padding:2em 5em 3em 5em;
+    font-size:1.25em;
+    font-weight:bold;
+    font-family: 'Amiri', serif;
+}
+@media only screen and (max-width: 375px){
+    .second{
+        width:20%;
+        font-size:1em;
+        padding-left:5em;
+        text-align:center;
+    }
+    .third{
+        font-size:1em;
+        padding:0em;
+    }
+    .first{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px){
+    .second{
+        padding-top:1em;
+    }
+    .first{
+        width:100%;
+        justify-content: center;
+    }
+}
+    
