@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:'Mulish', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    color: rgb(26, 26, 77);
+
+}
+.head-heading{
+    font-weight: bolder;
+    color: rgb(26, 26, 56);
+    letter-spacing: .1rem;
+    line-height: 4rem;
+
+}
+
+
+.strong{
+    color:rgb(0, 102, 255) ;
+}
+.maindiv{
+    /* border:  2px solid black; */
+    margin-top: 5em;
+    border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://d17pjsg7x52x9r.cloudfront.net/assets/static_landing_pages/learning-pages/hero/learning-that-fits-into-your-life-l-33f6755167ea16b4e35f523329e241a38ef3ca3e4c6146301f952f8e86cbbee0.png);
+  /*background-image : url("../components/Images/ill2.jpg");*/
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left; 
+ /* background-position:right;*/
+  height: 473px;
+  align-items: center;
+  /*border:1px solid black;*/
+}
+p.head-para {
+    margin-top: 0em;
+    font-size: 1.3rem;
+}
+.gsdiv{
+    display: flex;
+}
+.getstarted{
+    /* border: 2px solid black; */
+    margin-top: .7rem;
+    padding:.6rem;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border-radius: 5px;
+    font-weight:500;
+    box-shadow: 3px 3px 5px rgb(202, 202, 202);
+}
+.getstarted:hover{
+    color:  rgb(0, 132, 255);
+    background-color: rgb(255, 255, 255);
+    transition: 0.8s;
+
+}
+.centerdiv{
+    margin-top: 6em;
+    background-color: rgb(242, 243, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.cardblock{
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+
+/* border: 2px solid rgb(255, 0, 0); */
+justify-content: space-around;
+
+}
+.card-img-top{
+    display: flex;
+    align-self: center;
+width: 100%;
+height: 12vw;
+object-fit: cover;
+}
+.card{
+    display: flex;
+  flex-wrap: wrap;
+
+    margin-top: 3em;
+    width: 20%;
+border: none;
+background-color: rgb(242, 243, 255);
+
+}
+.cardhead{
+    font-weight: bolder;
+    margin-top: 2em;
+    color: rgb(49, 49, 49);
+}
+
+
+.curious{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  letter-spacing: 0;
+}
+.curioushead{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+/*  */
+.navbar a{
+    font-size: 1.2rem;
+    /* border: 2px solid violet */
+    }
+    .flippy-back {
+        font-size: initial;
+    }
+    .nav-btn{
+        margin-left: 2em;
+        border-radius: 5px;
+        }
+    #login{
+        background-color: white;
+        box-shadow: 2px 2px 5px rgb(219, 219, 219);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #login:hover{
+        color: white;
+        background-color: rgb(182, 182, 182);
+        transition: 0.8s;
+    
+    }
+    #signup{
+        background-color: rgb(0, 132, 255);
+        color: white;
+        box-shadow: 2px 2px 5px rgb(235, 235, 235);
+        padding: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #signup:hover{
+        color:  rgb(0, 132, 255);
+        background-color: rgb(255, 255, 255);
+        transition: 0.8s;
+    
+    }
+    .infobar{
+        display: flex;
+        width: 90%;
+        margin-top: 2rem;
+        /* border: 2px solid black; */
+        background-color: rgb(250, 250, 250);
+
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+   flex-direction: column;
+   padding-top: .8rem;
+   padding-bottom: .8rem;
+    }
+    .inforight{
+        width: 20%;
+        display: flex;
+    }
+    .infoleft{
+width: 80%;
+    }
+    .signup{
+        margin-left: 2rem;
+padding: .4rem;
+border: none;
+background-color: rgb(0, 132, 255);
+color: white;
+box-shadow: 2px 2px 5px rgb(235, 235, 235);
+border-radius: 5px;
+
+    }
+    .login{
+        padding:.4rem; 
+        padding-left: .8rem;
+padding-right: .8rem;
+border: none;
+border-radius: 5px;
+color: black;
+background-color: white;
+    box-shadow: 2px 2px 5px rgb(219, 219, 219);
+    }
+    .login:hover{
+        color: white;
+        background-color: rgb(182, 182, 182);
+        transition: 0.8s;
+    
+    }
+    .signup:hover{
+        color:  rgb(0, 102, 197);
+        background-color: rgb(255, 255, 255);
+        transition: 0.8s;
+    }
+    .joinbar{
+        display: flex;
+        background-color: rgb(245, 245, 245);
+
+        flex-direction: column;
+        margin-top: 4rem;
+        /* border: 2px solid black; */
+        justify-content: center;
+        text-align: center;
+        padding: 4em 0 3em 0;
+        
+    }
+    .infohead{
+        font-weight: bolder;
+    }
+    .infopara{
+        font-size: 1.2rem;
+    }
+
+    /* countup */
+    .rect{
+        height:50%;
+        width:100%;
+      display:flex;
+      flex-wrap: wrap;
+      margin: 2em  auto 3em auto;
+      /* background-color:rgb(242, 243, 255); */
+      background-color: rgb(255, 255, 255);
+
+      padding:1em;
+      justify-content: space-evenly;
+      }
+      .rect-col{
+        font-size:20px;
+        padding:1em;
+        text-align:center;
+        color: rgb(0, 132, 255);
+        background: linear-gradient(to right, #914dff 0%, #1900ff 100%);
+	  -webkit-background-clip: text;
+	
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 3px rgb(228, 228, 228);
+      }
+      .App{
+        width:80%;
+        text-align:center;
+        margin: 0 auto;
+        font-family:'Times New Roman', Times, serif;
+      }
+      .container-fluid.nav_bg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .pt-lg-0 {
+        margin-bottom: -354px;
+        margin-top: 30px;
+        margin-left: 5em;
+    }
+    
+    p.head-para {
+        width: 90%;
+    }
+    
+    h1.head-heading {
+        text-align: left;
+    }
+
+    /* Media queries */
+    @media only screen and (max-width: 1024px) 
+    {
+        .maindiv {
+            align-items: flex-start;
+        }
+
+        p.head-para {
+            width: 70%;
+        }
+        h1.head-heading {
+            width: 90%;
+        }
+    }
+    @media only screen and (max-width: 950px) 
+    {
+        .pt-lg-0 {
+            margin: auto;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1.head-heading {
+            text-align: center;
+        }
+        
+        .gsdiv {
+            align-self: center;
+            justify-content: center;
+        }
+        
+        .cardblock {
+            width: 100%;
+        }
+        
+        .inforight {width: 100%;
+            justify-content: center;}
+        
+        h3.infohead {
+            line-height: 1.5em;
+        }
+        
+        .row1 div {
+            width: 50%;
+            text-align: center;
+        }
+        
+        .col-lg-5.col-xs-12.about-company {width: 100%;}
+        
+        p.pr-5.text-white-50.headpara {
+            padding: 0 !important;
+        }
+        
+        p.head-para {
+            width: 100%;
+        }
+        p.head-para {
+            text-align: center;
+        }
+        
+        .maindiv {
+            margin: 20px auto !important;
+            width: 90%;
+            background-size: 90%;
+    background-position: center;
+        }
+    }
+    @media only screen and (max-width: 425px) {
+        .maindiv {margin-right: 0px !important;margin-left: 0px !important;width: 100%;width: 100%;
+            height: 265px;
+        margin: 0 !important;}
+
+        .pt-5 {
+            padding: 0 2em;
+        }
+        
+        .card {
+            width: 300px;
+        }
+        
+        img.card-img-top {height: auto;}
+        
+        h5.curioushead {
+            padding: 0 2em;
+        }
+        
+        h2 .cardhead {
+            letter-spacing: 0rem;
+        }
+        h3 .cardhead{
+            padding: 0 1rem 0 1rem;
+        }
+        h3 .infohead{
+            padding: 0 1rem 0 1rem;
+        }
+        p.infopara {
+            padding: 0 2em;
+        }
+        
+        .row1 div {
+            width: 100%;
+            padding: 1em 0;
+        }
+    }
+
+    @media only screen and (max-width: 375px){
+        h1.head-heading {
+            line-height: 2.5rem;
+        }
+
+        
+        
+      
+        
+        .centerdiv {
+            margin-top: 3em;
+        }
+    }
+
+    @media only screen and (max-width: 320px){
+       
+        
+    }
